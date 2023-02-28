@@ -8,11 +8,13 @@ const Menu = ({active}) => {
     name: 'Home',
     route: '/',
     icon: faHouse
-  }, {
-    name: 'Profile',
-    route: '/profile',
-    icon: faUser
-  }, {
+  }, 
+  // {
+  //   name: 'Profile',
+  //   route: '/profile',
+  //   icon: faUser
+  // },
+   {
     name: 'Resume',
     route: '/resume',
     icon: faFile
