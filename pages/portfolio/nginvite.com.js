@@ -6,9 +6,9 @@ const Nginvite = () => {
 
   return (
     <div>
-      <Header title='Andrio Pratama Sirait Site' />
+      <Header title='Khadam Ikhwanus Shofa Site' />
       <Template menu='/portfolio'>
-        <h2 className='text-sky-500 font-bold text-xl mb-5 mt-5'>NGINVITE.COM</h2>
+        <h2 className='text-orange-500 font-bold text-xl mb-5 mt-5'>NGINVITE.COM</h2>
         <div className='text-center'>
           <Image 
             src='/assets/images/portfolio/nginvite-1.jpg' 
@@ -28,7 +28,7 @@ const Nginvite = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 divide-x mt-5 mb-10">
           <div className='p-3 px-5'>
             <p className='font-bold'>Access:</p>
-            <a className='text-sky-500 underline' href="https://nginvite.com/">
+            <a className='text-orange-500 underline' href="https://nginvite.com/">
               Click here
             </a>
           </div>

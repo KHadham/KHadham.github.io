@@ -5,8 +5,8 @@ import Profile from './Profile'
 
 const Template = ({ children, menu }) => {
   return (
-    <main className="bg-neutral-900 p-3 md:p-20 lg:h-screen">
-      <div className="bg-gray-50 rounded-lg lg:h-full relative flex flex-col lg:flex-row justify-start items-start">
+    <main className="bg-neutral-900  lg:h-screen">
+      <div className="bg-white lg:h-full relative flex flex-col lg:flex-row justify-start items-start">
         <Profile />
         <div className="ml-auto w-full h-5/6 relative">
           <Menu active={menu} />
@@ -15,7 +15,6 @@ const Template = ({ children, menu }) => {
           </div>
         </div>
       </div>
-      <Footer />
     </main>
   )
 }

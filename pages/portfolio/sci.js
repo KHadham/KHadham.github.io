@@ -6,9 +6,9 @@ const WarungSegar = () => {
 
   return (
     <div>
-      <Header title='Andrio Pratama Sirait Site' />
+      <Header title='Khadam Ikhwanus Shofa Site' />
       <Template menu='/portfolio'>
-        <h2 className='text-sky-500 font-bold text-center text-xl mb-5 mt-5'>Information System for Smart Center Indonesia</h2>
+        <h2 className='text-orange-500 font-bold text-center text-xl mb-5 mt-5'>Information System for Smart Center Indonesia</h2>
         <div className='text-center'>
           <Image 
             src='/assets/images/portfolio/sci-1.jpg' 
@@ -37,15 +37,15 @@ const WarungSegar = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 divide-x mt-5 mb-10">
           <div className='p-3 px-5'>
             <p className='font-bold'>Access:</p>
-            <a className='text-sky-500 underline block' href="https://play.google.com/store/apps/details?id=com.androxxe.sci">
+            <a className='text-orange-500 underline block' href="https://play.google.com/store/apps/details?id=com.androxxe.sci">
               Click here (Android)
             </a>
 
-            <a className='text-sky-500 underline block' href="https://apps.apple.com/us/app/smart-center-indonesia/id6443511260">
+            <a className='text-orange-500 underline block' href="https://apps.apple.com/us/app/smart-center-indonesia/id6443511260">
               Click here (iOS)
             </a>
 
-            <a className='text-sky-500 underline' href="https://smartcenterindonesia.id">
+            <a className='text-orange-500 underline' href="https://smartcenterindonesia.id">
               Click here (Web)
             </a>
           </div>

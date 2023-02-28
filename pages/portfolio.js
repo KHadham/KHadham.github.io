@@ -13,12 +13,7 @@ const menu = [{
   description: 'Easy shopping for your kitchen needs in Pekanbaru City',
   slug: 'warungsegar',
   thumbnail: '/assets/images/portfolio/warungsegar.jpg'
-}, {
-  name: 'Nginvite.com',
-  description: 'Nginvite is an online invitation based on web application with self-service concept which allow user to create and choose design for their invitation',
-  slug: 'nginvite.com',
-  thumbnail: '/assets/images/portfolio/nginvite.jpg'
-}, {
+},{
   name: 'SPRIPIM Polda Riau',
   description: 'SPRIPIM Polda Riau is an archive data collection, financial management, and scheduling  management',
   slug: 'spripim',
@@ -35,17 +30,6 @@ const menu = [{
   thumbnail: '/assets/images/portfolio/etangkahan.jpg'
 
 }, {
-  name: 'MBKM FKIP Negeri Indonesia',
-  description: 'Information system for Communication forum of Faculty of Teacher Training and Education in Indonesia',
-  slug: 'mbkm-fkip-negeri',
-  thumbnail: '/assets/images/portfolio/mbkm.jpg'
-}, {
-  name: 'Data Collection Information System for ITWASDA Polda Riau',
-  description: 'Data collection information system for Regional Supervision Inspector of Riau Regional Police',
-  slug: 'sistem-pendataan-itwasda-polda-riau',
-  thumbnail: '/assets/images/portfolio/pendataan.jpg'
-
-}, {
   name: 'AR Culture Education Technology',
   description: 'Augmented Reality application that explains various historical places in Riau Province',
   slug: 'ar-culture-education-technology',
@@ -57,13 +41,7 @@ const menu = [{
   slug: 'stem-indonesia',
   thumbnail: '/assets/images/portfolio/stem.jpg'
 
-}, {
-  name: 'Landing Page ITWASDA Polda Riau',
-  description: 'Landing page for ITWASDA Polda Riau (Regional Supervision Inspector of Riau Regional Police)',
-  slug: 'landing-page-itwasda-polda-riau',
-  thumbnail: '/assets/images/portfolio/itwasda.jpg'
-
-}]
+}, ]
 
 const PortfolioItem = ({ item }) => {
   return <Link href={`/portfolio/${item.slug}`}>
@@ -76,12 +54,12 @@ const PortfolioItem = ({ item }) => {
             className='rounded-lg'
             objectFit='cover'/>
         </div>
-        <div className="opacity-0 rounded-lg hover:opacity-90 px-3 hover:bg-sky-500 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-white font-semibold">
+        <div className="opacity-0 rounded-lg hover:opacity-90 px-3 hover:bg-orange-500 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-white font-semibold">
           <p className='font-normal text-center text-sm'>{ item.description }</p>
         </div>
       </div>
       <div className='my-5 w-full'>
-        <p className='font-bold text-sky-500 text-center text-sm'>{ item.name }</p>
+        <p className='font-bold text-orange-500 text-center text-sm'>{ item.name }</p>
 
       </div>
     </a>
@@ -91,9 +69,9 @@ const PortfolioItem = ({ item }) => {
 const Portfolio = () => {
   return (
     <div>
-      <Header title='Andrio Pratama Sirait Site' />
+      <Header title='Khadam Ikhwanus Shofa Site' />
       <Template menu='/portfolio'>
-        <h2 className='text-sky-500 font-bold text-xl mb-10 mt-5'>MY PORTFOLIO</h2>
+        <h2 className='text-orange-500 font-bold text-xl mb-10 mt-5'>MY PORTFOLIO</h2>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4 mb-10 w-full flex justify-center items-center relative">
           { menu.map((item, index) => 
             <PortfolioItem key={`portfolio_${index}`} item={item} />

@@ -6,9 +6,9 @@ const WarungSegar = () => {
 
   return (
     <div>
-      <Header title='Andrio Pratama Sirait Site' />
+      <Header title='Khadam Ikhwanus Shofa Site' />
       <Template menu='/portfolio'>
-        <h2 className='text-sky-500 font-bold text-xl mb-5 mt-5'>WARUNGSEGAR APPLICATION</h2>
+        <h2 className='text-orange-500 font-bold text-xl mb-5 mt-5'>WARUNGSEGAR APPLICATION</h2>
         <div className='text-center'>
           <Image 
             src='/assets/images/portfolio/warungsegar-1.webp' 
@@ -36,7 +36,7 @@ const WarungSegar = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 divide-x mt-5 mb-10">
           <div className='p-3 px-5'>
             <p className='font-bold'>Access:</p>
-            <a className='text-sky-500 underline' href="https://play.google.com/store/apps/details?id=pku.warungsegar">
+            <a className='text-orange-500 underline' href="https://play.google.com/store/apps/details?id=pku.warungsegar">
               Click here
             </a>
           </div>

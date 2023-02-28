@@ -5,14 +5,14 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
 	return (
 		<div>
-			<Header title="Andrio Pratama Sirait Site" />
+			<Header title="Khadam Ikhwanus Shofa Site" />
 			<Template menu="/">
 				<div className="flex items-center justify-center flex-col h-full my-10">
 					<p className="mb-2 mt-5">Hello, I’m</p>
-					<h2 className="font-bold text-2xl mb-2 text-sky-500">
-						Andrio Pratama Sirait
+					<h2 className="font-bold text-2xl mb-2 text-orange-500">
+						Khadam Ikhwanus Shofa
 					</h2>
-					<p className="text-xl mb-5">Full-stack Developer</p>
+					<p className="text-xl mb-5">Mobile Developer</p>
 					<p className="mt-10 mb-20 mx-0 md:mx-4 lg:mx-10 text-center">
 						A professional full-stack developer from Pekanbaru, Indonesia. 3
 						years experienced working on StartUp. Working for more than 10+
@@ -21,14 +21,14 @@ const Home = () => {
 						with code. I always give my best for each projects I did. I give a
 						solution with my creative app.
 					</p>
-					<a
+					{/* <a
 						target="_blank"
 						rel="noreferrer"
 						href="/assets/CV-dan-Portolio-Andrio-Sirait - Jan 2023.pdf"
-						className="mt-0 mb-10 bg-sky-500 hover:bg-sky-700 px-5 py-3 text-white rounded-full text-sm">
+						className="mt-0 mb-10 bg-orange-500 hover:bg-orange-700 px-5 py-3 text-white rounded-full text-sm">
 						<FontAwesomeIcon icon={faDownload} className="mr-3" />
 						Download CV
-					</a>
+					</a> */}
 				</div>
 				<Services />
 			</Template>

@@ -6,9 +6,9 @@ const WarungSegar = () => {
 
   return (
     <div>
-      <Header title='Andrio Pratama Sirait Site' />
+      <Header title='Khadam Ikhwanus Shofa Site' />
       <Template menu='/portfolio'>
-        <h2 className='text-sky-500 font-bold text-center text-xl mb-5 mt-5'>Information System of Harvest and Transportation<br />PT. Tri Bakti Sarimas</h2>
+        <h2 className='text-orange-500 font-bold text-center text-xl mb-5 mt-5'>Information System of Harvest and Transportation<br />PT. Tri Bakti Sarimas</h2>
         <div className='text-center'>
           <Image 
             src='/assets/images/portfolio/tbs-1.webp' 
@@ -38,11 +38,11 @@ const WarungSegar = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 divide-x mt-5 mb-10">
           <div className='p-3 px-5'>
             <p className='font-bold'>Access:</p>
-            <a className='text-sky-500 underline block' href="https://play.google.com/store/apps/details?id=com.androxxe.tbs">
+            <a className='text-orange-500 underline block' href="https://play.google.com/store/apps/details?id=com.androxxe.tbs">
               Click here (Apps)
             </a>
 
-            <a className='text-sky-500 underline' href="https://tribaktisarimas.com">
+            <a className='text-orange-500 underline' href="https://tribaktisarimas.com">
               Click here (Web)
             </a>
           </div>

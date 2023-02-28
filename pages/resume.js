@@ -14,9 +14,9 @@ const Skill = ({ src, nama, level }) => {
 const Resume = () => {
 	return (
 		<div>
-			<Header title="Andrio Pratama Sirait Site" />
+			<Header title="Khadam Ikhwanus Shofa Site" />
 			<Template menu="/resume">
-				<h1 className="text-sky-500 font-bold text-xl mb-10 mt-5">
+				<h1 className="text-orange-500 font-bold text-xl mb-10 mt-5">
 					WORK EXPERIENCE
 				</h1>
 				<ol className="relative border-l border-gray-200">
@@ -129,82 +129,77 @@ const Resume = () => {
 					</li>
 				</ol>
 
-				<h1 className="text-sky-500 font-bold text-xl mt-5 mb-7">SKILL</h1>
-				<p className="font-bold my-5 underline">Language</p>
-				<div className="grid grid-cols-2 gap-10 text-center mb-10">
+				<h1 className="text-orange-500 font-bold text-xl mt-5 mb-7">TOOLS & SKILLS</h1>
+				
+				<div className="grid grid-cols-2 lg:grid-cols-4 gap-10 text-center mb-10 w-full">
 					<Skill
 						src="/assets/images/javascript.png"
 						nama="JavaScript"
-						level="Expert "
+						level=" "
 					/>
-					<Skill src="/assets/images/php.svg" nama="Php" level="Expert " />
-				</div>
-				<p className="font-bold my-5 underline">Framework & Library</p>
-				<div className="grid grid-cols-2 lg:grid-cols-4 gap-10 text-center mb-10 w-full">
+					{/* <Skill src="/assets/images/php.svg" nama="Php" level=" " /> */}
 					<Skill
-						src="/assets/images/react-native.png"
+						src="/assets/images/react.png"
 						nama="React Native"
-						level="Expert "
+						level=" "
 					/>
 					<Skill
 						src="/assets/images/react.png"
 						nama="React.js"
-						level="Intermediate "
+						level=" "
 					/>
 					<Skill
 						src="/assets/images/next.png"
 						nama="Next.js"
-						level="Intermediate "
+						level=" "
 					/>
 					<Skill
 						src="/assets/images/express.png"
 						nama="Express.js"
-						level="Medium "
+						level=" "
 					/>
-					<Skill
-						src="/assets/images/laravel.png"
-						nama="Laravel"
-						level="Expert "
-					/>
-					<Skill
-						src="/assets/images/ci.png"
-						nama="CodeIgniter"
-						level="Expert "
-					/>
-					<Skill
-						src="/assets/images/laravel-livewire.png"
-						nama="Laravel Livewire"
-						level="Intermediate "
-					/>
-					<Skill
-						src="/assets/images/sass.png"
-						nama="SASS"
-						level="Intermediate "
-					/>
-					<Skill
-						src="/assets/images/jquery.gif"
-						nama="jQuery"
-						level="Intermediate "
-					/>
-				</div>
-				<p className="font-bold my-5 underline">Tools</p>
-				<div className="grid grid-cols-2 lg:grid-cols-3 gap-10 text-center mb-10 w-full">
 					<Skill
 						src="/assets/images/vscode.png"
 						nama="VSCode"
-						level="Expert "
+						level=" "
 					/>
 					<Skill
 						src="/assets/images/github.jpg"
 						nama="GitHub"
-						level="Intermediate "
+						level=" "
 					/>
 					<Skill
 						src="/assets/images/bitbucket.png"
 						nama="BitBucket"
-						level="Intermediate "
+						level=" "
+					/>
+					<Skill
+						src="/assets/gitlab.png"
+						nama="GitLab"
+						level=" "
+					/>
+					<Skill
+						src="/assets/dbeaver.jpg"
+						nama="DBeaver"
+						level=" "
+					/>
+					<Skill
+						src="/assets/cloudinary.png"
+						nama="Cloudinary"
+						level=" "
+					/>
+					<Skill
+						src="/assets/firebase.png"
+						nama="FireBase"
+						level=" "
+					/>
+					<Skill
+						src="/assets/GCP.png"
+						nama="Google Cloud Platform"
+						level=" "
 					/>
 				</div>
+
 			</Template>
 		</div>
 	);

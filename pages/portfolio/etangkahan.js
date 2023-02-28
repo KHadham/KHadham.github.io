@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Footer, Header, Menu, Profile, Template } from '../../components'
 import Image from 'next/image'
+import ModalImage from "react-modal-image";
 
 const Etangkahan = () => {
 
@@ -10,26 +11,32 @@ const Etangkahan = () => {
       <Template menu='/portfolio'>
         <h2 className='text-sky-500 font-bold text-xl mb-5 mt-5'>ETANGKAHAN</h2>
         <div className='text-center'>
-          <Image 
-            src='/assets/images/portfolio/etangkahan-1.webp' 
+          <div className='w-[200] text-center flex'>
+            <ModalImage
+              small={'/assets/images/portfolio/etangkahan-1.webp'}
+              large={'/assets/images/portfolio/etangkahan-1.webp'}
+            />
+          </div>
+          <Image
+            src='/assets/images/portfolio/etangkahan-1.webp'
             height={400}
             width={200}
-            objectFit='contain'/>
-          <Image 
-            src='/assets/images/portfolio/etangkahan-2.webp' 
+            objectFit='contain' />
+          <Image
+            src='/assets/images/portfolio/etangkahan-2.webp'
             height={400}
             width={200}
-            objectFit='contain'/>
-          <Image 
-            src='/assets/images/portfolio/etangkahan-3.webp' 
+            objectFit='contain' />
+          <Image
+            src='/assets/images/portfolio/etangkahan-3.webp'
             height={400}
             width={200}
-            objectFit='contain'/>
-          <Image 
-            src='/assets/images/portfolio/etangkahan-4.webp' 
+            objectFit='contain' />
+          <Image
+            src='/assets/images/portfolio/etangkahan-4.webp'
             height={400}
             width={200}
-            objectFit='contain'/>
+            objectFit='contain' />
         </div>
         <p className='mb-3 mt-10 text-justify'>
           E-Tangkahan is a modern online shopping application based on android and iOS in Medan City

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Services = () => (
   <div className='text-center mb-10'>
-    <h1 className='text-sky-500 font-bold text-xl mt-5 mb-5'>MY SERVICES</h1>
+    <h1 className='text-orange-500 font-bold text-xl mt-5 mb-5'>MY SERVICES</h1>
     <p className='mb-5'>Give my best effort for every projects. I give a solution with my creative app.</p>
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-center">
       <div className="py-5">

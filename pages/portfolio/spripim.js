@@ -6,9 +6,9 @@ const WarungSegar = () => {
 
   return (
     <div>
-      <Header title='Andrio Pratama Sirait Site' />
+      <Header title='Khadam Ikhwanus Shofa Site' />
       <Template menu='/portfolio'>
-        <h2 className='text-sky-500 font-bold text-center text-xl mb-5 mt-5'>Information System for SPRIPIM Polda Riau</h2>
+        <h2 className='text-orange-500 font-bold text-center text-xl mb-5 mt-5'>Information System for SPRIPIM Polda Riau</h2>
         <div className='text-center'>
           <Image 
             src='/assets/images/portfolio/spripim-1.jpg' 
@@ -37,15 +37,15 @@ const WarungSegar = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 divide-x mt-5 mb-10">
           <div className='p-3 px-5'>
             <p className='font-bold'>Access:</p>
-            <a className='text-sky-500 underline block' href="https://play.google.com/store/apps/details?id=com.androxxe.spripimpolda">
+            <a className='text-orange-500 underline block' href="https://play.google.com/store/apps/details?id=com.androxxe.spripimpolda">
               Click here (Android)
             </a>
 
-            <a className='text-sky-500 underline block' href="https://apps.apple.com/us/app/spripim-presisi-polda-riau/id1635047725">
+            <a className='text-orange-500 underline block' href="https://apps.apple.com/us/app/spripim-presisi-polda-riau/id1635047725">
               Click here (iOS)
             </a>
 
-            <a className='text-sky-500 underline' href="https://spripimpoldariau.com">
+            <a className='text-orange-500 underline' href="https://spripimpoldariau.com">
               Click here (Web)
             </a>
           </div>

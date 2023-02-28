@@ -6,7 +6,7 @@ const Footer = () => {
 	return (
 		<footer className="text-center items-center justify-center mt-7">
 			<div className="text-sm items-center justify-center text-white">
-				Andrio ©2023 crafted with ❤
+				Ikhwan as-shofa ©2023
 			</div>
 		</footer>
 	);
