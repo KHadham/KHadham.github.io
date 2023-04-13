@@ -14,13 +14,7 @@ const Home = () => {
 					</h2>
 					<p className="text-xl mb-5">Mobile Developer</p>
 					<p className="mt-10 mb-20 mx-0 md:mx-4 lg:mx-10 text-center">
-						A professional full-stack developer from Pekanbaru, Indonesia. 3
-						years experienced working on StartUp. Working for more than 10+
-						project. Im having big passion on business to give good impact for
-						others, coding & technology to solve problem and streamline things
-						with code. I always give my best for each projects I did. I give a
-						solution with my creative app.
-					</p>
+					A professional Mobile Developer with experience in back-end development, currently residing in Jakarta, Indonesia. I have 3 years of experience working on StartUps, and have completed more than 10 projects. I am passionate about using technology to create a positive impact on others, and I enjoy coding to solve problems and streamline processes with efficient code. I always strive to give my best in each project I work on, providing creative and innovative solutions through my applications.					</p>
 					{/* <a
 						target="_blank"
 						rel="noreferrer"
