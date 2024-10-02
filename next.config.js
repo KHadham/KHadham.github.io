@@ -3,4 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  output: 'export',
+  basePath: '/khadham.github.io', // Optional: if you want to use a custom domain or a subpath
+};
